@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Pagina web para la base de datos de YaYa",
+  "main": "lib/functions/src/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KenetGaona115/RefugioWebsiteDatabase/issues"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^5.8.5",
+    "blob": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^8.3.2",
+    "firebase-admin": "^9.8.0",
+    "node-blob": "0.0.2",
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.2"
+  }
+}
