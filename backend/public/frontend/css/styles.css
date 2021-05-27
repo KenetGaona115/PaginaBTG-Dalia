@@ -1,11 +1,11 @@
 @font-face {
-    font-family: WSunday;
-    src: url("WinterSunday.otf");
+    font-family: Montse;
+    src: url("Montserrat-Regular.ttf");
 }
 
 @font-face {
-    font-family: Bellerose;
-    src: url("Bellerose.ttf");
+    font-family: Pattaya;
+    src: url("Pattaya-Regular.ttf");
 }
 
 body {
@@ -13,8 +13,10 @@ body {
   margin: 0;
 }
 
+
+
 h1 {
-    font-family: WSunday;
+    font-family: Pattaya;
     font-size: 120px;
     text-align: center;
     padding: 0px;
@@ -23,13 +25,13 @@ h1 {
 }
 
 h2 {
-    font-family: WSunday;
+    font-family: Pattaya;
     font-size: 48px;
     margin-bottom: 0px;
 }
 
 p {
-    font-family: Bellerose;
+    font-family: Montse;
 }
 
 .navbar ul {
@@ -53,7 +55,7 @@ p {
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-  font-family: Bellerose;
+  font-family: Montse;
 }
 
 .navbar li a:hover {
@@ -81,7 +83,7 @@ p {
 
 .copyright-text
 {
-  font-family: Bellerose;
+  font-family: Montse;
   margin:0
 }
 @media (max-width:991px)
@@ -114,7 +116,7 @@ p {
   }
 
 h3 {
-    font-family: WSunday;
+    font-family: Pattaya;
     font-size: 32px;
     padding: 0px;
     margin-bottom: 0px;
