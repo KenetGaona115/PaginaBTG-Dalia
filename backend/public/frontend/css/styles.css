@@ -1,0 +1,121 @@
+@font-face {
+    font-family: WSunday;
+    src: url("WinterSunday.otf");
+}
+
+@font-face {
+    font-family: Bellerose;
+    src: url("Bellerose.ttf");
+}
+
+body {
+  background-color: rgb(198, 255, 236);
+  margin: 0;
+}
+
+h1 {
+    font-family: WSunday;
+    font-size: 120px;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 2%;
+}
+
+h2 {
+    font-family: WSunday;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: Bellerose;
+}
+
+.navbar ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-family: Bellerose;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.copyright-text
+{
+  font-family: Bellerose;
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
+h3 {
+    font-family: WSunday;
+    font-size: 32px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
